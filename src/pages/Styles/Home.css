@@ -146,6 +146,68 @@
   color: #19233f;
   text-align: center;
 }
+.home .howWeWork-mobile {
+  display: none;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.home .howWeWork-mobile img {
+  border-radius: 0;
+}
+.home .howWeWork-mobile .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.home .howWeWork-mobile .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.home .howWeWork-mobile .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.home .howWeWork-mobile h4 {
+  width: 100%;
+  max-width: 40rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #666666;
+}
+.home .howWeWork-mobile .general-swiper {
+  width: 100%;
+}
+.home .howWeWork-mobile .general-swiper .swiper-button-next {
+  background-image: url(../../assets/images/slider/next.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.home .howWeWork-mobile .general-swiper .swiper-button-next::after {
+  display: none;
+}
+.home .howWeWork-mobile .general-swiper .swiper-button-prev {
+  background-image: url(../../assets/images/slider/prev.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.home .howWeWork-mobile .general-swiper .swiper-button-prev::after {
+  display: none;
+}
+.home .howWeWork-mobile .general-swiper .swiper-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  gap: 1rem;
+}
 .home .team {
   display: flex;
   display: none;
@@ -412,12 +474,14 @@
   }
   .home .ceo-wrapper .text {
     padding: 0;
+    z-index: 2;
   }
   .home .ceo-wrapper img {
     width: 100%;
     position: absolute;
     right: -25%;
     bottom: -10%;
+    z-index: 1;
   }
   .home .ceo-wrapper .by {
     padding: 0;
@@ -428,6 +492,10 @@
     text-align: left;
     left: 5%;
     bottom: 25%;
+    z-index: 2;
+  }
+  .home .howWeWork {
+    display: none;
   }
   .home .howWeWork h4 {
     max-width: 100%;
@@ -444,6 +512,9 @@
   }
   .home .howWeWork .items .item p {
     width: 90%;
+  }
+  .home .howWeWork-mobile {
+    display: flex;
   }
   .home .team .items {
     flex-direction: column;

@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./assets/styles/App.css";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import FooterMobile from "./components/Footer/FooterMobile";
 import Navbar from "./components/Navbars/Navbar";
 import NavbarMobile from "./components/Navbars/NavbarMobile";
 import { AppWrapper } from "./components/StyledComponents/StyledComponents";
@@ -27,6 +28,7 @@ const App = () => {
       <br />
       <br />
       <Footer />
+      <FooterMobile />
     </>
   );
 };

@@ -151,6 +151,46 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="howWeWork-mobile">
+        <div className="title">
+          <h2>How we work</h2>
+          <div className="divider" />
+        </div>
+        <h4>
+          Building your advantage in 5 steps with us. You can see the detailed
+          information by clicking on the button.
+        </h4>
+        <PrimaryButton
+          onClick={() => {
+            navigate("/howWeWork");
+            window.scroll(0, 0);
+          }}
+        >
+          <BoldP>See more</BoldP>
+        </PrimaryButton>
+        <Swiper className="general-swiper" navigation>
+          <SwiperSlide className="swiper-custom">
+            <img src={Icon1} alt="icon 1" />
+            <p>Briefing</p>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-custom">
+            <img src={Icon2} alt="icon 2" />
+            <p>Tech & financial analysis</p>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-custom">
+            <img src={Icon3} alt="icon 3" />
+            <p>Design</p>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-custom">
+            <img src={Icon4} alt="icon 4" />
+            <p>Production and logistics</p>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-custom">
+            <img src={Icon5} alt="icon 5" />
+            <p>Final assembly</p>
+          </SwiperSlide>
+        </Swiper>
+      </div>
       <div className="team">
         <div className="title">
           <h2>Team</h2>

@@ -111,42 +111,97 @@
   }
 }
 
-@media (max-width: 998px) {
-  .footer {
-    .content {
-      flex-direction: column;
-      .logo-text {
-        width: 100%;
-        .text {
-          display: flex;
-          flex-direction: column;
-          gap: 5vw;
-          .green {
-            font-size: 5vw;
-            color: $br_green;
-          }
-          .white {
-            font-size: 5vw;
-            color: white;
-          }
-        }
+.footer-mobile {
+  width: 100%;
+  background: $br_dark_blue;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20vw;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    * {
+      .white {
+        font-size: 5vw;
       }
-      .right {
+      .green {
+        font-size: 5vw;
+      }
+    }
+    .logo {
+      display: flex;
+      width: 100%;
+      img {
         width: 100%;
-        .nav {
-          display: none;
-        }
-        .contact-icons {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 2rem;
-        }
-        .buttons {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 2rem;
+      }
+    }
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+      align-items: flex-start;
+      .icon-text {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        .white {
+          width: max-content;
+          color: white;
         }
       }
     }
+    .address {
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+      .green {
+        color: $br_green;
+      }
+      .white {
+        color: white;
+      }
+    }
+    .icons {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      img {
+        cursor: pointer;
+        max-width: 3rem;
+        border-radius: 0;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5vw;
+      .white {
+        cursor: pointer;
+        color: white;
+        transition: all 0.4s;
+        &:hover {
+          color: $br_green;
+        }
+      }
+      .green {
+        color: $br_green;
+      }
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .footer {
+    display: none;
+  }
+  .footer-mobile {
+    display: flex;
   }
 }

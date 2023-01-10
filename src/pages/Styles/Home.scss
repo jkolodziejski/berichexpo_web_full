@@ -143,6 +143,72 @@
       }
     }
   }
+  .howWeWork-mobile {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      border-radius: 0;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    h4 {
+      width: 100%;
+      max-width: 40rem;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: #666666;
+    }
+    .general-swiper {
+      width: 100%;
+      .swiper-button-next {
+        background-image: url(../../assets/images/slider/next.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      .swiper-button-next::after {
+        display: none;
+      }
+
+      .swiper-button-prev {
+        background-image: url(../../assets/images/slider/prev.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      .swiper-button-prev::after {
+        display: none;
+      }
+
+      .swiper-custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 1rem;
+      }
+    }
+  }
   .team {
     display: flex;
     display: none;
@@ -414,12 +480,14 @@
       overflow: hidden;
       .text {
         padding: 0;
+        z-index: 2;
       }
       img {
         width: 100%;
         position: absolute;
         right: -25%;
         bottom: -10%;
+        z-index: 1;
       }
       .by {
         padding: 0;
@@ -430,9 +498,11 @@
         text-align: left;
         left: 5%;
         bottom: 25%;
+        z-index: 2;
       }
     }
     .howWeWork {
+      display: none;
       h4 {
         max-width: 100%;
       }
@@ -449,6 +519,9 @@
           }
         }
       }
+    }
+    .howWeWork-mobile {
+      display: flex;
     }
     .team {
       .items {
