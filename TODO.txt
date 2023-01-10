@@ -2,5 +2,5 @@
 2- Home -> How we work -> swipe         // Done
 3- Footer -> better                     // Done
 4- navbar mobile -> facebook            // Done
-5- black dots
-6- image background rectangle 
+5- black dots                           //
+6- image background rectangle           //

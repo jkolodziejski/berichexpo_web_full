@@ -244,7 +244,7 @@
   border-radius: 1.75rem;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 650px) {
   .how-we-work .steps .step1, .how-we-work .steps .step2, .how-we-work .steps .step4 {
     flex-direction: column;
   }

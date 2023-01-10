@@ -587,7 +587,7 @@
   width: 100%;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 650px) {
   .sirhaLyon .section1 {
     flex-direction: column;
   }

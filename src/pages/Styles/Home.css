@@ -455,7 +455,7 @@
   color: #2ea944;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 650px) {
   .home * {
     text-align: left;
   }
