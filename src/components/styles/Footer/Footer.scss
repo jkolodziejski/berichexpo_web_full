@@ -1,0 +1,152 @@
+@import "../../../assets/styles/vars";
+
+.footer {
+  width: 100%;
+  background: $br_dark_blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      img {
+        width: 50%;
+      }
+      .text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        .green {
+          color: $br_green;
+        }
+        .white {
+          color: white;
+        }
+      }
+    }
+    .right {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: space-between;
+      .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        * {
+          transition: all 0.4s;
+        }
+        button {
+          text-decoration: none;
+        }
+        button * {
+          padding: 0.25rem 0;
+          color: white;
+          border-bottom: 2px solid transparent;
+          cursor: pointer;
+          &:hover {
+            color: $br_green;
+          }
+        }
+        .active * {
+          color: $br_green;
+          border-bottom: 2px solid $br_green;
+        }
+      }
+      .contact-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .icon-text {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          align-items: center;
+          .white {
+            width: max-content;
+            color: white;
+          }
+        }
+        .icons {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          img {
+            cursor: pointer;
+            max-width: 3rem;
+            border-radius: 0;
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .white {
+          cursor: pointer;
+          color: white;
+          transition: all 0.4s;
+          &:hover {
+            color: $br_green;
+          }
+        }
+        .green {
+          color: $br_green;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .footer {
+    .content {
+      flex-direction: column;
+      .logo-text {
+        width: 100%;
+        .text {
+          display: flex;
+          flex-direction: column;
+          gap: 5vw;
+          .green {
+            font-size: 5vw;
+            color: $br_green;
+          }
+          .white {
+            font-size: 5vw;
+            color: white;
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        .nav {
+          display: none;
+        }
+        .contact-icons {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 2rem;
+        }
+        .buttons {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 2rem;
+        }
+      }
+    }
+  }
+}

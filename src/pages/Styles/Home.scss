@@ -1,0 +1,495 @@
+@import "../../assets/styles/vars";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      h1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.375rem;
+        color: #19233f;
+      }
+      h4 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #666666;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+  .ceo-wrapper {
+    border-radius: 0.75rem;
+    background: $br_dark_blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 0 0 0 2rem;
+      h4 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+        font-size: 1.25rem;
+        line-height: 172%;
+        b {
+          color: rgba(46, 169, 68, 1);
+        }
+      }
+    }
+    img {
+      width: 40%;
+    }
+    .by {
+      width: 100%;
+      display: flex;
+      margin-top: auto;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 2rem 6em 0;
+      h4 {
+        width: max-content;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        color: #2ea944;
+        font-size: 1.25rem;
+      }
+      h5 {
+        width: max-content;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.125rem;
+        color: #ffffff;
+      }
+    }
+  }
+  .howWeWork {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      border-radius: 0;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    h4 {
+      width: 100%;
+      max-width: 40rem;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: #666666;
+    }
+    .items {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 15%;
+        gap: 0.24rem;
+        p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.25rem;
+          color: #19233f;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .team {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .items {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 30%;
+        gap: 2rem;
+        img {
+          width: 100%;
+        }
+        h5 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.25rem;
+          color: #19233f;
+          text-align: center;
+        }
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.125rem;
+          color: #2ea944;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .our-work {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .row-reverse {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 50%;
+      h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #19233f;
+        b {
+          color: #2ea944;
+        }
+      }
+      h4 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #666666;
+      }
+    }
+    .img-wrapper {
+      width: 50%;
+      img {
+        border-radius: 1.75rem;
+        width: 90%;
+      }
+    }
+  }
+  .our-offers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      border-radius: 0;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .items {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 20%;
+        gap: 0.24rem;
+        p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.25rem;
+          color: #19233f;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      border-radius: 0;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .general-swiper {
+      width: 100%;
+      .swiper-button-next {
+        background-image: url(../../assets/images/slider/next.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      .swiper-button-next::after {
+        display: none;
+      }
+
+      .swiper-button-prev {
+        background-image: url(../../assets/images/slider/prev.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      .swiper-button-prev::after {
+        display: none;
+      }
+
+      .swiper-custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        .text {
+          padding: 2rem 0;
+          width: 60%;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.5rem;
+          text-align: center;
+          color: #666666;
+        }
+        .by {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.75rem;
+          text-align: center;
+          text-transform: capitalize;
+          color: #19233f;
+        }
+        .position {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.125rem;
+          color: #2ea944;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .home {
+    * {
+      text-align: left;
+    }
+    .section1 {
+      flex-direction: column-reverse;
+      img {
+        width: 100%;
+      }
+    }
+    .ceo-wrapper {
+      flex-direction: column;
+      padding: 1rem;
+      position: relative;
+      padding-bottom: 25rem;
+      overflow: hidden;
+      .text {
+        padding: 0;
+      }
+      img {
+        width: 100%;
+        position: absolute;
+        right: -25%;
+        bottom: -10%;
+      }
+      .by {
+        padding: 0;
+        align-items: center;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        left: 5%;
+        bottom: 25%;
+      }
+    }
+    .howWeWork {
+      h4 {
+        max-width: 100%;
+      }
+      .items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+        .item {
+          width: 100%;
+          max-width: 45%;
+          p {
+            width: 90%;
+          }
+        }
+      }
+    }
+    .team {
+      .items {
+        flex-direction: column;
+        gap: 2rem;
+        .item {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+    .our-work {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .row-reverse {
+        flex-direction: column-reverse;
+      }
+      .text {
+        width: 100%;
+      }
+      .img-wrapper {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .our-offers {
+      .items {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        .item {
+          width: 100%;
+          max-width: 100%;
+          p {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}

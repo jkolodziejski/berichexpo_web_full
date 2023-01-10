@@ -1,0 +1,309 @@
+.how-we-work .steps .step4, .how-we-work .steps .step2, .how-we-work .steps .step1 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: relative;
+}
+.how-we-work .steps .step4 .text-arrow, .how-we-work .steps .step2 .text-arrow, .how-we-work .steps .step1 .text-arrow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+  position: relative;
+}
+.how-we-work .steps .step4 .text-arrow .number, .how-we-work .steps .step2 .text-arrow .number, .how-we-work .steps .step1 .text-arrow .number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #2ea944;
+}
+.how-we-work .steps .step4 .text-arrow .title, .how-we-work .steps .step2 .text-arrow .title, .how-we-work .steps .step1 .text-arrow .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.how-we-work .steps .step4 .text-arrow .title h2, .how-we-work .steps .step2 .text-arrow .title h2, .how-we-work .steps .step1 .text-arrow .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.how-we-work .steps .step4 .text-arrow .title h4, .how-we-work .steps .step2 .text-arrow .title h4, .how-we-work .steps .step1 .text-arrow .title h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #666666;
+}
+.how-we-work .steps .step4 .text-arrow .title .divider, .how-we-work .steps .step2 .text-arrow .title .divider, .how-we-work .steps .step1 .text-arrow .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.how-we-work .steps .step4 .text-arrow .arrow, .how-we-work .steps .step2 .text-arrow .arrow, .how-we-work .steps .step1 .text-arrow .arrow {
+  display: flex;
+  align-self: center;
+}
+.how-we-work .steps .step4 .absoluteImg, .how-we-work .steps .step2 .absoluteImg, .how-we-work .steps .step1 .absoluteImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(50% - 2rem);
+}
+
+.how-we-work {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.how-we-work * .arrow {
+  border-radius: 0;
+}
+.how-we-work .section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.how-we-work .section1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.how-we-work .section1 .text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.375rem;
+  color: #19233f;
+}
+.how-we-work .section1 .text .divider {
+  width: 10rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.how-we-work .section1 img {
+  width: 50%;
+}
+.how-we-work .steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.how-we-work .steps .step1 .text-arrow .title {
+  padding-left: 4rem;
+}
+.how-we-work .steps .step2 {
+  flex-direction: row-reverse;
+}
+.how-we-work .steps .step2 .absoluteImg {
+  top: 2rem;
+  left: 0;
+}
+.how-we-work .steps .step2 .text-arrow {
+  margin-top: -6rem;
+}
+.how-we-work .steps .step2 .text-arrow .arrow {
+  display: flex;
+  align-self: flex-start;
+}
+.how-we-work .steps .step3 {
+  display: flex;
+  flex-direction: column;
+}
+.how-we-work .steps .step3 .text {
+  margin-top: -6rem;
+  width: 40%;
+}
+.how-we-work .steps .step3 .text .number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #2ea944;
+}
+.how-we-work .steps .step3 .text .title {
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.how-we-work .steps .step3 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.how-we-work .steps .step3 .text .title h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #666666;
+}
+.how-we-work .steps .step3 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.how-we-work .steps .step3 .images {
+  padding-top: 4rem;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 0;
+}
+.how-we-work .steps .step3 .images img {
+  width: 50%;
+}
+.how-we-work .steps .step3 .images .on-top-img {
+  width: 35%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  position: absolute;
+  top: 10rem;
+}
+.how-we-work .steps .step3 .arrow {
+  width: 40%;
+  align-self: flex-start;
+  padding-left: 10rem;
+  margin-bottom: 2rem;
+}
+.how-we-work .steps .step4 {
+  flex-direction: row-reverse;
+}
+.how-we-work .steps .step4 .absoluteImg {
+  top: 2rem;
+  left: 0;
+}
+.how-we-work .steps .step4 .text-arrow {
+  margin-top: -8rem;
+}
+.how-we-work .steps .step4 .text-arrow .arrow {
+  display: flex;
+  align-self: flex-start;
+}
+.how-we-work .steps .step5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.how-we-work .steps .step5 .text {
+  margin-top: -6rem;
+  width: 100%;
+}
+.how-we-work .steps .step5 .text .number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #2ea944;
+}
+.how-we-work .steps .step5 .text .title {
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.how-we-work .steps .step5 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.how-we-work .steps .step5 .text .title .text-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.how-we-work .steps .step5 .text .title .text-button-wrapper h4 {
+  width: 50%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #666666;
+}
+.how-we-work .steps .step5 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.how-we-work .steps .step5 .images {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.how-we-work .steps .step5 .images img {
+  width: calc(33.3% - 1rem);
+  border-radius: 1.75rem;
+}
+
+@media (max-width: 998px) {
+  .how-we-work .steps .step1, .how-we-work .steps .step2, .how-we-work .steps .step4 {
+    flex-direction: column;
+  }
+  .how-we-work .steps .step1 .text-arrow, .how-we-work .steps .step2 .text-arrow, .how-we-work .steps .step4 .text-arrow {
+    width: 100%;
+  }
+  .how-we-work .steps .step1 .text-arrow .arrow, .how-we-work .steps .step2 .text-arrow .arrow, .how-we-work .steps .step4 .text-arrow .arrow {
+    display: none;
+  }
+  .how-we-work .steps .step1 .absoluteImg, .how-we-work .steps .step2 .absoluteImg, .how-we-work .steps .step4 .absoluteImg {
+    position: static;
+    width: 100%;
+  }
+  .how-we-work .section1 {
+    flex-direction: column-reverse;
+  }
+  .how-we-work .section1 img {
+    width: 100%;
+  }
+  .how-we-work .steps {
+    gap: 4rem;
+  }
+  .how-we-work .steps .step1 .text-arrow .title {
+    padding: 0;
+  }
+  .how-we-work .steps .step2 .text-arrow {
+    margin: 0;
+  }
+  .how-we-work .steps .step3 .text {
+    margin: 0;
+    width: 100%;
+  }
+  .how-we-work .steps .step3 .text .title {
+    padding: 0;
+  }
+  .how-we-work .steps .step3 .arrow {
+    display: none;
+  }
+  .how-we-work .steps .step4 .text-arrow {
+    margin: 0;
+  }
+  .how-we-work .steps .step5 .text {
+    margin: 0;
+  }
+  .how-we-work .steps .step5 .text .title {
+    padding: 0;
+  }
+  .how-we-work .steps .step5 .text .title .text-button-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .how-we-work .steps .step5 .text .title .text-button-wrapper h4 {
+    width: 100%;
+  }
+  .how-we-work .steps .step5 .images {
+    flex-direction: column;
+  }
+  .how-we-work .steps .step5 .images img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=HowWeWork.css.map */

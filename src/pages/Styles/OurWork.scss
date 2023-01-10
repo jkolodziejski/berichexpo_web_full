@@ -1,0 +1,704 @@
+%general-project {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+  .cover {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .number {
+      color: #2ea944;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 33%;
+    }
+  }
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+}
+
+.sirhaLyon {
+  @extend %general-project;
+}
+
+.esmoParis {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+  .cover {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .number {
+      color: #2ea944;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 33%;
+      height: 100%;
+    }
+  }
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+}
+
+.fatchpack {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+  .cover {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .number {
+      color: #2ea944;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 33%;
+      height: 100%;
+    }
+  }
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+}
+
+.anuga {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+  .cover {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+      }
+      .divider {
+        width: 4rem;
+        height: 4px;
+        background-color: #2ea944;
+      }
+    }
+    .number {
+      color: #2ea944;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .text {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: left;
+      .title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: left;
+        h2 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.25rem;
+        }
+        .divider {
+          width: 4rem;
+          height: 4px;
+          background-color: #2ea944;
+        }
+      }
+      h3 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: #666666;
+      }
+    }
+    .picture {
+      width: 66%;
+    }
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    .picture {
+      width: 100%;
+    }
+    video {
+      width: 28%;
+      height: min-content;
+      border-radius: 1.75rem;
+      object-fit: cover;
+    }
+  }
+  .section3 {
+    .picture {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .sirhaLyon {
+    .section1 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section3 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+  }
+  .esmoParis {
+    .section1 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+      img {
+        width: 100% !important;
+      }
+    }
+    .section3 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+  }
+  .fatchpack {
+    .section1 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section3 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+  }
+  .anuga {
+    .section1 {
+      flex-direction: column;
+      .text {
+        width: 100%;
+      }
+      .picture {
+        width: 100%;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      .picture {
+        width: 100% !important;
+      }
+      video {
+        width: 100%;
+      }
+    }
+  }
+}

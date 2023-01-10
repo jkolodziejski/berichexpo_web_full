@@ -1,0 +1,119 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.contact .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.contact .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.contact .body {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.contact .body .form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  width: calc(60% - 2.5rem);
+}
+.contact .body .form .inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact .body .form h2 {
+  color: #666666;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  max-width: 400px;
+}
+.contact .body .form h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: #19233f;
+}
+.contact .body .info {
+  width: calc(40% - 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.contact .body .info .name {
+  color: #2ea944;
+}
+.contact .body .info .address {
+  color: #19233f;
+}
+.contact .body .info .icon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .body .info .icon-row img {
+  border-radius: 0;
+  width: 100%;
+  max-width: 3rem;
+}
+.contact .body .info .full-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .body .info .full-row .social-row {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.contact .body .info .full-row .social-row img {
+  border-radius: 0;
+  width: 100%;
+  max-width: 3rem;
+}
+.contact .body .info .full-row .social-row .social-column {
+  display: flex;
+  flex-direction: column;
+}
+.contact .body .info .full-row .social-row .social-column .small {
+  color: #666666;
+}
+
+@media (max-width: 998px) {
+  .contact .body {
+    flex-direction: column;
+  }
+  .contact .body .form {
+    width: 100%;
+  }
+  .contact .body .info {
+    display: none;
+  }
+}/*# sourceMappingURL=Contact.css.map */

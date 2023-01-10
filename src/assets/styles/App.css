@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@700&display=swap");
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+img {
+  border-radius: 1.75rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Montserrat" !important;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: #19233f;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+img {
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.TextField-radius {
+  font-family: "Lexend", sans-serif;
+}
+
+.TextField-radius fieldset {
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=App.css.map */

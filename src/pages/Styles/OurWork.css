@@ -1,0 +1,693 @@
+.sirhaLyon {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.sirhaLyon .cover {
+  width: 100%;
+}
+.sirhaLyon .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sirhaLyon .title .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sirhaLyon .title .text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.sirhaLyon .title .text .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.sirhaLyon .title .number {
+  color: #2ea944;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.sirhaLyon .section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.sirhaLyon .section1 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.sirhaLyon .section1 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.sirhaLyon .section1 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.sirhaLyon .section1 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.sirhaLyon .section1 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.sirhaLyon .section1 .picture {
+  width: 66%;
+}
+.sirhaLyon .section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.sirhaLyon .section2 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.sirhaLyon .section2 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.sirhaLyon .section2 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.sirhaLyon .section2 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.sirhaLyon .section2 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.sirhaLyon .section2 .picture {
+  width: 33%;
+}
+.sirhaLyon .section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.sirhaLyon .section3 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.sirhaLyon .section3 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.sirhaLyon .section3 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.sirhaLyon .section3 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.sirhaLyon .section3 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.sirhaLyon .section3 .picture {
+  width: 66%;
+}
+
+.esmoParis {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.esmoParis .cover {
+  width: 100%;
+}
+.esmoParis .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.esmoParis .title .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.esmoParis .title .text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.esmoParis .title .text .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.esmoParis .title .number {
+  color: #2ea944;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.esmoParis .section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.esmoParis .section1 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.esmoParis .section1 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.esmoParis .section1 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.esmoParis .section1 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.esmoParis .section1 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.esmoParis .section1 .picture {
+  width: 66%;
+}
+.esmoParis .section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.esmoParis .section2 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.esmoParis .section2 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.esmoParis .section2 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.esmoParis .section2 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.esmoParis .section2 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.esmoParis .section2 .picture {
+  width: 33%;
+  height: 100%;
+}
+.esmoParis .section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.esmoParis .section3 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.esmoParis .section3 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.esmoParis .section3 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.esmoParis .section3 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.esmoParis .section3 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.esmoParis .section3 .picture {
+  width: 66%;
+}
+
+.fatchpack {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.fatchpack .cover {
+  width: 100%;
+}
+.fatchpack .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fatchpack .title .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.fatchpack .title .text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.fatchpack .title .text .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.fatchpack .title .number {
+  color: #2ea944;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.fatchpack .section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.fatchpack .section1 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.fatchpack .section1 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.fatchpack .section1 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.fatchpack .section1 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.fatchpack .section1 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.fatchpack .section1 .picture {
+  width: 66%;
+}
+.fatchpack .section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.fatchpack .section2 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.fatchpack .section2 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.fatchpack .section2 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.fatchpack .section2 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.fatchpack .section2 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.fatchpack .section2 .picture {
+  width: 33%;
+  height: 100%;
+}
+.fatchpack .section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.fatchpack .section3 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.fatchpack .section3 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.fatchpack .section3 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.fatchpack .section3 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.fatchpack .section3 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.fatchpack .section3 .picture {
+  width: 66%;
+}
+
+.anuga {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 2rem;
+}
+.anuga .cover {
+  width: 100%;
+}
+.anuga .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.anuga .title .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.anuga .title .text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.anuga .title .text .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.anuga .title .number {
+  color: #2ea944;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.anuga .section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.anuga .section1 .text {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+.anuga .section1 .text .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+.anuga .section1 .text .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.anuga .section1 .text .title .divider {
+  width: 4rem;
+  height: 4px;
+  background-color: #2ea944;
+}
+.anuga .section1 .text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: #666666;
+}
+.anuga .section1 .picture {
+  width: 66%;
+}
+.anuga .section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.anuga .section2 .picture {
+  width: 100%;
+}
+.anuga .section2 video {
+  width: 28%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  border-radius: 1.75rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.anuga .section3 .picture {
+  width: 100%;
+}
+
+@media (max-width: 998px) {
+  .sirhaLyon .section1 {
+    flex-direction: column;
+  }
+  .sirhaLyon .section1 .text {
+    width: 100%;
+  }
+  .sirhaLyon .section1 .picture {
+    width: 100%;
+  }
+  .sirhaLyon .section2 {
+    flex-direction: column;
+  }
+  .sirhaLyon .section2 .text {
+    width: 100%;
+  }
+  .sirhaLyon .section2 .picture {
+    width: 100%;
+  }
+  .sirhaLyon .section3 {
+    flex-direction: column;
+  }
+  .sirhaLyon .section3 .text {
+    width: 100%;
+  }
+  .sirhaLyon .section3 .picture {
+    width: 100%;
+  }
+  .esmoParis .section1 {
+    flex-direction: column;
+  }
+  .esmoParis .section1 .text {
+    width: 100%;
+  }
+  .esmoParis .section1 .picture {
+    width: 100%;
+  }
+  .esmoParis .section2 {
+    flex-direction: column;
+  }
+  .esmoParis .section2 .text {
+    width: 100%;
+  }
+  .esmoParis .section2 .picture {
+    width: 100%;
+  }
+  .esmoParis .section2 img {
+    width: 100% !important;
+  }
+  .esmoParis .section3 {
+    flex-direction: column;
+  }
+  .esmoParis .section3 .text {
+    width: 100%;
+  }
+  .esmoParis .section3 .picture {
+    width: 100%;
+  }
+  .fatchpack .section1 {
+    flex-direction: column;
+  }
+  .fatchpack .section1 .text {
+    width: 100%;
+  }
+  .fatchpack .section1 .picture {
+    width: 100%;
+  }
+  .fatchpack .section2 {
+    flex-direction: column;
+  }
+  .fatchpack .section2 .text {
+    width: 100%;
+  }
+  .fatchpack .section2 .picture {
+    width: 100%;
+  }
+  .fatchpack .section3 {
+    flex-direction: column;
+  }
+  .fatchpack .section3 .text {
+    width: 100%;
+  }
+  .fatchpack .section3 .picture {
+    width: 100%;
+  }
+  .anuga .section1 {
+    flex-direction: column;
+  }
+  .anuga .section1 .text {
+    width: 100%;
+  }
+  .anuga .section1 .picture {
+    width: 100%;
+  }
+  .anuga .section2 {
+    flex-direction: column;
+  }
+  .anuga .section2 .picture {
+    width: 100% !important;
+  }
+  .anuga .section2 video {
+    width: 100%;
+  }
+}/*# sourceMappingURL=OurWork.css.map */
