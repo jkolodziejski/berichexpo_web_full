@@ -63,6 +63,7 @@
   flex-direction: column;
   gap: 24px;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 2%;
   position: absolute;
   width: 100%;
@@ -97,6 +98,33 @@
 .navbar-mobile .mobile-menu .items .active * {
   color: #2ea944;
   border-bottom: 2px solid #2ea944;
+}
+.navbar-mobile .mobile-menu .contact {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+  width: 100%;
+}
+.navbar-mobile .mobile-menu .contact .contact-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-mobile .mobile-menu .contact .contact-row .icon-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.navbar-mobile .mobile-menu .contact .contact-row .icon-row * {
+  color: white;
+  font-size: 5vw;
+}
+.navbar-mobile .mobile-menu .contact .contact-row img {
+  width: 3rem;
 }
 .navbar-mobile .open-mobile {
   transform: translateX(0%);

@@ -9,6 +9,10 @@ img {
   border-radius: 1.75rem;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {

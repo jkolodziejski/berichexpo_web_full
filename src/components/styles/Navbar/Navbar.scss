@@ -68,6 +68,7 @@
     flex-direction: column;
     gap: 24px;
     align-items: flex-start;
+    justify-content: space-between;
     padding: 2%;
     position: absolute;
     width: 100%;
@@ -98,6 +99,33 @@
       .active * {
         color: $br_green;
         border-bottom: 2px solid $br_green;
+      }
+    }
+    .contact {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10vw;
+      width: 100%;
+      .contact-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .icon-row {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          align-items: center;
+          * {
+            color: white;
+            font-size: 5vw;
+          }
+        }
+        img {
+          width: 3rem;
+        }
       }
     }
   }
