@@ -1,7 +1,6 @@
 import { TextField } from "@mui/material";
 import {
   BoldP,
-  H1,
   H2,
   H3,
   PrimaryButton,
@@ -76,16 +75,16 @@ const Contact = () => {
           <H3 className="adddress">61-064 Poznań/Poland</H3>
           <H3 className="adddress">NIP/Tax ID: PL7822579745</H3>
           <div className="icon-row">
-            <img src={phone} />
+            <img src={phone} alt="Phone_icon" />
             <H3>+48 783 825 245</H3>
           </div>
           <div className="icon-row">
-            <img src={email} />
+            <img src={email} alt="email_icon" />
             <H3>berich@berich.com.pl</H3>
           </div>
           <div className="full-row">
             <div className="social-row">
-              <img src={facebook} />
+              <img src={facebook} alt="facebook_icon" />
               <div
                 className="social-column"
                 onClick={() =>
@@ -97,7 +96,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="social-row">
-              <img src={instagram} />
+              <img src={instagram} alt="instagram_icon" />
               <div
                 className="social-column"
                 onClick={() =>

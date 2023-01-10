@@ -1,4 +1,3 @@
-import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 
 export const AppWrapper = styled.div`
@@ -10,36 +9,12 @@ export const AppWrapper = styled.div`
   margin: 0 auto;
 `;
 
-export const NormalRow = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  ${(props: { fullHeight?: boolean }) =>
-    props.fullHeight
-      ? css`
-          height: 100%;
-        `
-      : ""}
-`;
 
 export const RowSpaceBetween = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
-
-export const NormalColumn = styled.div`
-  ${(props: { fullHeight?: boolean }) =>
-    props.fullHeight
-      ? css`
-          height: 100%;
-        `
-      : ""}
-  width: 100%;
-  display: flex;
-  flex-direction: column;
 `;
 
 export const H1 = styled.h1`
@@ -90,37 +65,6 @@ export const H4 = styled.h4`
   align-items: center;
 `;
 
-export const RegularP = styled.p`
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  color: #19233f;
-  display: flex;
-  align-items: center;
-  ${(props: { breakWord?: boolean }) =>
-    props.breakWord
-      ? css`
-          word-wrap: break-word;
-          word-break: break-word;
-        `
-      : ""}
-`;
-
-export const MediumP = styled.p`
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  color: #19233f;
-  display: flex;
-  align-items: center;
-`;
-
 export const BoldP = styled.p`
   font-family: "Montserrat";
   font-style: normal;
@@ -145,15 +89,6 @@ export const SmallP = styled.p`
   align-items: center;
 `;
 
-export const InfoP = styled.p`
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.625rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  color: #afafaf;
-`;
 
 export const PrimaryButton = styled.button`
   display: flex;

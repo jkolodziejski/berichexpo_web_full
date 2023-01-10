@@ -1,11 +1,6 @@
 import {
   BoldP,
-  H1,
-  H4,
-  NormalColumn,
-  NormalRow,
   PrimaryButton,
-  RowSpaceBetween,
 } from "../../components/StyledComponents/StyledComponents";
 import HomeMain from "../../assets/images/home_page_main.png";
 import Cytat from "../../assets/images/photo_Grzegosz_cytat.png";
