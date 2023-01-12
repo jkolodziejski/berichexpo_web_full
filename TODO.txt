@@ -1,6 +1,9 @@
-1- contact form fix                     //
-2- Home -> How we work -> swipe         // Done
-3- Footer -> better                     // Done
-4- navbar mobile -> facebook            // Done
-5- black dots                           //
-6- image background rectangle           //
+1- contact form fix                             // 
+2- Home -> How we work -> swipe                 // Done
+3- Footer -> better                             // Done
+4- navbar mobile -> facebook                    // Done
+5- black dots                                   // 
+6- image background rectangle                   // 
+7- Footer to look like figma                    //
+8- photo on click to redirect to the page       //
+9- small text on tablet                         // Done
