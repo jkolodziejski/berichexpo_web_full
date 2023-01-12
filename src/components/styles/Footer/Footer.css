@@ -128,10 +128,10 @@
   max-width: 1200px;
 }
 .footer-mobile .content * .white {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 .footer-mobile .content * .green {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 .footer-mobile .content .logo {
   display: flex;
@@ -172,11 +172,11 @@
 .footer-mobile .content .icons {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 4rem;
 }
 .footer-mobile .content .icons img {
   cursor: pointer;
-  max-width: 3rem;
+  max-width: 4rem;
   border-radius: 0;
 }
 .footer-mobile .content .buttons {
@@ -184,6 +184,14 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 5vw;
+  width: 100%;
+}
+.footer-mobile .content .buttons .button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .footer-mobile .content .buttons .white {
   cursor: pointer;

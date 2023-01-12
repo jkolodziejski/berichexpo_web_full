@@ -62,6 +62,31 @@ const FooterMobile = () => {
           <H4 className="white">61-064 Poznań/Poland</H4>
           <H4 className="white">NIP/Tax ID: PL7822579745</H4>
         </div>
+        <div className="buttons">
+          <div className="button-wrapper">
+            <H4
+              className="white"
+              onClick={() =>
+                window.open(
+                  "https://berich.com.pl/graphis/RODO/Informacja%20o%20przetwarzaniu%20danych%20osobowych%20-%20Berich%20Sp.%20z%20o.o..pdf"
+                )
+              }
+            >
+              Privacy policy
+            </H4>
+            <H4
+              className="white"
+              onClick={() =>
+                window.open(
+                  "https://berich.com.pl/graphis/RODO/Privacy%20policy-%20-%20Berich%20Sp.%20z%20o.o..pdf"
+                )
+              }
+            >
+              Cookies policy
+            </H4>
+          </div>
+          <H4 className="green">© Copyright 2022 - Berich Expo </H4>
+        </div>
         <div className="icons">
           <img
             src={facebook}
@@ -73,30 +98,6 @@ const FooterMobile = () => {
             alt="instagram"
             onClick={() => window.open("https://www.instagram.com/berichexpo/")}
           />
-        </div>
-
-        <div className="buttons">
-          <H4
-            className="white"
-            onClick={() =>
-              window.open(
-                "https://berich.com.pl/graphis/RODO/Informacja%20o%20przetwarzaniu%20danych%20osobowych%20-%20Berich%20Sp.%20z%20o.o..pdf"
-              )
-            }
-          >
-            Privacy policy
-          </H4>
-          <H4
-            className="white"
-            onClick={() =>
-              window.open(
-                "https://berich.com.pl/graphis/RODO/Privacy%20policy-%20-%20Berich%20Sp.%20z%20o.o..pdf"
-              )
-            }
-          >
-            Cookies policy
-          </H4>
-          <H4 className="green">© Copyright 2022 - Berich Expo </H4>
         </div>
       </div>
     </div>
