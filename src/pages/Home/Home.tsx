@@ -244,7 +244,14 @@ const Home = () => {
             </PrimaryButton>
           </div>
           <div className="img-wrapper">
-            <img src={IMG_ESMO} alt="shira" />
+            <img
+              src={IMG_ESMO}
+              alt="shira"
+              onClick={() => {
+                navigate("/ourwork/esmoParis");
+                window.scroll(0, 0);
+              }}
+            />
           </div>
         </div>
 
@@ -267,7 +274,14 @@ const Home = () => {
             </PrimaryButton>
           </div>
           <div className="img-wrapper">
-            <img src={IMG_SIRHA_tiny} alt="shira" />
+            <img
+              src={IMG_SIRHA_tiny}
+              alt="shira"
+              onClick={() => {
+                navigate("/ourwork/sirhaLyon");
+                window.scroll(0, 0);
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -289,7 +303,14 @@ const Home = () => {
             </PrimaryButton>
           </div>
           <div className="img-wrapper">
-            <img src={IMG_FACHPACK} alt="shira" />
+            <img
+              src={IMG_FACHPACK}
+              alt="shira"
+              onClick={() => {
+                navigate("/ourwork/fachpackNuremberg");
+                window.scroll(0, 0);
+              }}
+            />
           </div>
         </div>
         <div className="row-reverse">
@@ -312,7 +333,14 @@ const Home = () => {
             </PrimaryButton>
           </div>
           <div className="img-wrapper">
-            <img src={IMG_ANUGA} alt="shira" />
+            <img
+              src={IMG_ANUGA}
+              alt="shira"
+              onClick={() => {
+                navigate("/ourwork/AnugaFoodtec");
+                window.scroll(0, 0);
+              }}
+            />
           </div>
         </div>
       </div>

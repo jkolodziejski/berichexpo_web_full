@@ -41,8 +41,14 @@ const OurPortfolio = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
-            <img src={IMG_ESMO} alt="shira" />
+          <div
+            className="img-wrapper"
+            onClick={() => {
+              navigate("/ourwork/esmoParis");
+              window.scroll(0, 0);
+            }}
+          >
+            <img src={IMG_ESMO} alt="ESMO" />
           </div>
         </div>
 
@@ -64,7 +70,13 @@ const OurPortfolio = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
+          <div
+            className="img-wrapper"
+            onClick={() => {
+              navigate("/ourwork/sirhaLyon");
+              window.scroll(0, 0);
+            }}
+          >
             <img src={IMG_SIRHA_tiny} alt="shira" />
           </div>
         </div>
@@ -86,8 +98,14 @@ const OurPortfolio = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
-            <img src={IMG_FACHPACK} alt="shira" />
+          <div
+            className="img-wrapper"
+            onClick={() => {
+              navigate("/ourwork/fachpackNuremberg");
+              window.scroll(0, 0);
+            }}
+          >
+            <img src={IMG_FACHPACK} alt="FACHPACK" />
           </div>
         </div>
         <div className="row">
@@ -108,8 +126,14 @@ const OurPortfolio = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
-            <img src={IMG_ANUGA} alt="shira" />
+          <div
+            className="img-wrapper"
+            onClick={() => {
+              navigate("/ourwork/AnugaFoodtec");
+              window.scroll(0, 0);
+            }}
+          >
+            <img src={IMG_ANUGA} alt="ANUGA" />
           </div>
         </div>
       </div>

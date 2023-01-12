@@ -5,5 +5,5 @@
 5- black dots                                   // 
 6- image background rectangle                   // 
 7- Footer to look like figma                    //
-8- photo on click to redirect to the page       //
+8- photo on click to redirect to the page       // Done
 9- small text on tablet                         // Done
