@@ -256,6 +256,44 @@
   }
 }
 
+@media (max-width: 1500px) {
+  .how-we-work {
+    .steps {
+      .step3 {
+        .text {
+          width: 35%;
+        }
+        .images {
+          .on-top-img {
+            width: 35%;
+            left: 50%;
+            transform: translate(-50%, -90%);
+            position: absolute;
+            top: 10rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 954px) {
+  .how-we-work {
+    .steps {
+      .step3 {
+        .text {
+          width: 60%;
+        }
+        .images {
+          .on-top-img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 650px) {
   %general_step {
     flex-direction: column;

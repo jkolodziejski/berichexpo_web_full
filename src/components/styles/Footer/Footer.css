@@ -212,4 +212,21 @@
   .footer-mobile {
     display: flex;
   }
+  .footer-mobile .content * .white {
+    font-size: 3vw;
+  }
+  .footer-mobile .content * .green {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 370px) {
+  .footer-mobile {
+    display: flex;
+  }
+  .footer-mobile .content * .white {
+    font-size: 4vw;
+  }
+  .footer-mobile .content * .green {
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=Footer.css.map */
