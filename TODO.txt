@@ -7,3 +7,4 @@
 7- Footer to look like figma                    // Done
 8- photo on click to redirect to the page       // Done
 9- small text on tablet                         // Done
+10- Our CEO too big                             // Done

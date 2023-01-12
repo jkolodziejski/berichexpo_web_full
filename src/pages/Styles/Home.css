@@ -480,7 +480,7 @@
     width: 100%;
     position: absolute;
     right: -25%;
-    bottom: -10%;
+    bottom: -50%;
     z-index: 1;
   }
   .home .ceo-wrapper .by {
@@ -550,5 +550,15 @@
   }
   .home .our-offers .items .item p {
     width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .home .ceo-wrapper img {
+    bottom: -25%;
+  }
+}
+@media (max-width: 450px) {
+  .home .ceo-wrapper img {
+    bottom: -20%;
   }
 }/*# sourceMappingURL=Home.css.map */
