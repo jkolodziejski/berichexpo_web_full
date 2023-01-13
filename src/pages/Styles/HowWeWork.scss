@@ -362,8 +362,16 @@
   .how-we-work {
     .section1 {
       flex-direction: column-reverse;
-      img {
+      .img-wrapper {
+        position: relative;
         width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .img-wrapper::before {
+        left: -2rem;
+        bottom: -2rem;
       }
     }
     .steps {
@@ -376,6 +384,11 @@
       .step2 {
         .text-arrow {
           margin: 0;
+        }
+        &::before {
+          top: 60%;
+          height: 45%;
+          right: -2rem;
         }
       }
       .step3 {
@@ -390,11 +403,29 @@
         .arrow {
           display: none;
         }
+        .images {
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+        }
+        &::before {
+          top: 60%;
+          height: 35%;
+          left: -2rem;
+          top: 70%;
+        }
       }
       .step4 {
         .text-arrow {
           margin: 0;
         }
+        &::before {
+          top: 50%;
+          height: 60%;
+          right: -2rem;
+        }
+
       }
       .step5 {
         .text {

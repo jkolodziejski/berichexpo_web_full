@@ -572,6 +572,14 @@
           width: 100%;
         }
       }
+      .img-wrapper.left::before {
+        bottom: -5%;
+        left: -2rem;
+      }
+      .img-wrapper.right::before {
+        top: -10%;
+        left: -2rem;
+      }
     }
     .our-offers {
       .items {

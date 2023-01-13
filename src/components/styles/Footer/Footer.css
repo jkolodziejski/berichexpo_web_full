@@ -213,10 +213,10 @@
     display: flex;
   }
   .footer-mobile .content * .white {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .footer-mobile .content * .green {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 @media (max-width: 370px) {
@@ -224,9 +224,9 @@
     display: flex;
   }
   .footer-mobile .content * .white {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .footer-mobile .content * .green {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }/*# sourceMappingURL=Footer.css.map */

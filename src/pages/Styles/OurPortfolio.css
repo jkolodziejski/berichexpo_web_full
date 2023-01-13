@@ -126,8 +126,15 @@
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-  .our-portfolio .section1 img {
+  .our-portfolio .section1 .img-wrapper {
     width: 100%;
+  }
+  .our-portfolio .section1 .img-wrapper img {
+    width: 100%;
+  }
+  .our-portfolio .section1 .img-wrapper::before {
+    bottom: -5%;
+    left: -2rem;
   }
   .our-portfolio .our-work .row {
     flex-direction: column-reverse;
@@ -143,5 +150,13 @@
   }
   .our-portfolio .our-work .img-wrapper img {
     width: 100%;
+  }
+  .our-portfolio .our-work .img-wrapper.left::before {
+    top: -5%;
+    left: -2rem;
+  }
+  .our-portfolio .our-work .img-wrapper.right::before {
+    bottom: -4%;
+    left: -2rem;
   }
 }/*# sourceMappingURL=OurPortfolio.css.map */

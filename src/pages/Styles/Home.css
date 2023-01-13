@@ -562,6 +562,14 @@
   .home .our-work .img-wrapper img {
     width: 100%;
   }
+  .home .our-work .img-wrapper.left::before {
+    bottom: -5%;
+    left: -2rem;
+  }
+  .home .our-work .img-wrapper.right::before {
+    top: -10%;
+    left: -2rem;
+  }
   .home .our-offers .items {
     flex-direction: column;
     align-items: center;

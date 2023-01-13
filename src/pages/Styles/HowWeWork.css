@@ -331,8 +331,16 @@
   .how-we-work .section1 {
     flex-direction: column-reverse;
   }
-  .how-we-work .section1 img {
+  .how-we-work .section1 .img-wrapper {
+    position: relative;
     width: 100%;
+  }
+  .how-we-work .section1 .img-wrapper img {
+    width: 100%;
+  }
+  .how-we-work .section1 .img-wrapper::before {
+    left: -2rem;
+    bottom: -2rem;
   }
   .how-we-work .steps {
     gap: 4rem;
@@ -342,6 +350,11 @@
   }
   .how-we-work .steps .step2 .text-arrow {
     margin: 0;
+  }
+  .how-we-work .steps .step2::before {
+    top: 60%;
+    height: 45%;
+    right: -2rem;
   }
   .how-we-work .steps .step3 .text {
     margin: 0;
@@ -353,8 +366,25 @@
   .how-we-work .steps .step3 .arrow {
     display: none;
   }
+  .how-we-work .steps .step3 .images {
+    flex-direction: column;
+  }
+  .how-we-work .steps .step3 .images img {
+    width: 100%;
+  }
+  .how-we-work .steps .step3::before {
+    top: 60%;
+    height: 35%;
+    left: -2rem;
+    top: 70%;
+  }
   .how-we-work .steps .step4 .text-arrow {
     margin: 0;
+  }
+  .how-we-work .steps .step4::before {
+    top: 50%;
+    height: 60%;
+    right: -2rem;
   }
   .how-we-work .steps .step5 .text {
     margin: 0;
