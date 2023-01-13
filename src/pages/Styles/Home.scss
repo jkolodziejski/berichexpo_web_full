@@ -268,7 +268,7 @@
   .our-work {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 10rem;
     .title {
       display: flex;
       flex-direction: column;
@@ -323,11 +323,34 @@
       }
     }
     .img-wrapper {
+      position: relative;
       width: 50%;
       img {
         border-radius: 1.75rem;
         width: 90%;
       }
+    }
+    .img-wrapper.left::before {
+      z-index: -1;
+      border-radius: 1.75rem;
+      right: 0;
+      bottom: -12%;
+      content: "";
+      position: absolute;
+      width: 100vw;
+      height: 100%;
+      background-color: $br_green;
+    }
+    .img-wrapper.right::before {
+      z-index: -1;
+      border-radius: 1.75rem;
+      left: -5%;
+      top: -9%;
+      content: "";
+      position: absolute;
+      width: 100vw;
+      height: 100%;
+      background-color: $br_dark_blue;
     }
   }
   .our-offers {
@@ -586,4 +609,3 @@
     }
   }
 }
-

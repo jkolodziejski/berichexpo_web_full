@@ -243,7 +243,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
+          <div className="img-wrapper right">
             <img
               src={IMG_ESMO}
               alt="shira"
@@ -273,7 +273,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
+          <div className="img-wrapper left">
             <img
               src={IMG_SIRHA_tiny}
               alt="shira"
@@ -302,7 +302,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
+          <div className="img-wrapper right">
             <img
               src={IMG_FACHPACK}
               alt="shira"
@@ -332,7 +332,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper">
+          <div className="img-wrapper left">
             <img
               src={IMG_ANUGA}
               alt="shira"

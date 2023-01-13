@@ -28,7 +28,9 @@ const HowWeWork = () => {
           <h1>Building your advantage in 5 steps with us</h1>
           <div className="divider" />
         </div>
-        <img src={IMG_How_we_work_main} alt="homeImage" />
+        <div className="img-wrapper">
+          <img src={IMG_How_we_work_main} alt="homeImage" />
+        </div>
       </div>
       <div className="steps">
         <div className="step1">
@@ -158,39 +160,6 @@ const HowWeWork = () => {
           </div>
           <img className="absoluteImg" src={IMG_How_we_work_1} alt="1" /> */}
         </div>
-
-        {/* <div className="step4">
-          {" "}
-          <div className="text-arrow">
-            <h1 className="number">01</h1>
-            <div className="title">
-              <h2>Briefing</h2>
-              <div className="divider" />
-              <h4>
-                We get to know you, your brand and your expectations. We ask
-                questions to bring out all of the values of your brand{" "}
-              </h4>
-            </div>
-            <img className="arrow" src={arrow1} alt="arrow" />
-          </div>
-          <img className="absoluteImg" src={IMG_How_we_work_1} alt="1" />
-        </div>
-        <div className="step5">
-          {" "}
-          <div className="text-arrow">
-            <h1 className="number">01</h1>
-            <div className="title">
-              <h2>Briefing</h2>
-              <div className="divider" />
-              <h4>
-                We get to know you, your brand and your expectations. We ask
-                questions to bring out all of the values of your brand{" "}
-              </h4>
-            </div>
-            <img className="arrow" src={arrow1} alt="arrow" />
-          </div>
-          <img className="absoluteImg" src={IMG_How_we_work_1} alt="1" />
-        </div> */}
       </div>
     </div>
   );

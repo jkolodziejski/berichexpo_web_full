@@ -3,7 +3,7 @@
 3- Footer -> better                             // Done
 4- navbar mobile -> facebook                    // Done
 5- black dots                                   // 
-6- image background rectangle                   // 
+6- image background rectangle                   // Done
 7- Footer to look like figma                    // Done
 8- photo on click to redirect to the page       // Done
 9- small text on tablet                         // Done

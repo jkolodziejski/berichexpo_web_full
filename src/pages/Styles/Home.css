@@ -267,7 +267,7 @@
 .home .our-work {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 10rem;
 }
 .home .our-work .title {
   display: flex;
@@ -323,11 +323,34 @@
   color: #666666;
 }
 .home .our-work .img-wrapper {
+  position: relative;
   width: 50%;
 }
 .home .our-work .img-wrapper img {
   border-radius: 1.75rem;
   width: 90%;
+}
+.home .our-work .img-wrapper.left::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  right: 0;
+  bottom: -12%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: #2ea944;
+}
+.home .our-work .img-wrapper.right::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  left: -5%;
+  top: -9%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: #19233f;
 }
 .home .our-offers {
   display: flex;

@@ -88,8 +88,23 @@
         background-color: #2ea944;
       }
     }
-    img {
-      width: 50%;
+    .img-wrapper {
+      position: relative;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .img-wrapper::before {
+      z-index: -1;
+      border-radius: 1.75rem;
+      left: 10%;
+      bottom: -9%;
+      content: "";
+      position: absolute;
+      width: 100vw;
+      height: 100%;
+      background-color: $br_green;
     }
   }
   .steps {
@@ -118,10 +133,22 @@
           align-self: flex-start;
         }
       }
+      &::before {
+        z-index: -1;
+        border-radius: 1.75rem;
+        right: 55%;
+        top: 0%;
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 60%;
+        background-color: $br_green;
+      }
     }
     .step3 {
       display: flex;
       flex-direction: column;
+      position: relative;
       .text {
         margin-top: -6rem;
         width: 40%;
@@ -180,6 +207,17 @@
         padding-left: 10rem;
         margin-bottom: 2rem;
       }
+      &::before {
+        z-index: -1;
+        border-radius: 1.75rem;
+        left: 55%;
+        top: 30%;
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 53%;
+        background-color: $br_dark_blue;
+      }
     }
     .step4 {
       @extend %general_step;
@@ -195,8 +233,20 @@
           align-self: flex-start;
         }
       }
+      &::before {
+        z-index: -1;
+        border-radius: 1.75rem;
+        right: 55%;
+        top: 10%;
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 65%;
+        background-color: $br_green;
+      }
     }
     .step5 {
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 2rem;

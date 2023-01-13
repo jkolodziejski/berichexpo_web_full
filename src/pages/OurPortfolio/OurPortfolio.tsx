@@ -20,7 +20,9 @@ const OurPortfolio = () => {
           <h1>Our Portfolio</h1>
           <div className="divider" />
         </div>
-        <img src={HomeMain} alt="homeImage" />
+        <div className="img-wrapper">
+          <img src={HomeMain} alt="homeImage" />
+        </div>
       </div>
       <div className="our-work">
         <div className="row-reverse">
@@ -42,7 +44,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper"
+            className="img-wrapper left"
             onClick={() => {
               navigate("/ourwork/esmoParis");
               window.scroll(0, 0);
@@ -71,7 +73,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper"
+            className="img-wrapper right"
             onClick={() => {
               navigate("/ourwork/sirhaLyon");
               window.scroll(0, 0);
@@ -99,7 +101,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper"
+            className="img-wrapper left"
             onClick={() => {
               navigate("/ourwork/fachpackNuremberg");
               window.scroll(0, 0);
@@ -127,7 +129,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper"
+            className="img-wrapper right"
             onClick={() => {
               navigate("/ourwork/AnugaFoodtec");
               window.scroll(0, 0);

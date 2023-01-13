@@ -85,8 +85,23 @@
   height: 4px;
   background-color: #2ea944;
 }
-.how-we-work .section1 img {
-  width: 50%;
+.how-we-work .section1 .img-wrapper {
+  position: relative;
+  width: 100%;
+}
+.how-we-work .section1 .img-wrapper img {
+  width: 100%;
+}
+.how-we-work .section1 .img-wrapper::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  left: 10%;
+  bottom: -9%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: #2ea944;
 }
 .how-we-work .steps {
   display: flex;
@@ -110,9 +125,21 @@
   display: flex;
   align-self: flex-start;
 }
+.how-we-work .steps .step2::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  right: 55%;
+  top: 0%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 60%;
+  background-color: #2ea944;
+}
 .how-we-work .steps .step3 {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .how-we-work .steps .step3 .text {
   margin-top: -6rem;
@@ -172,6 +199,17 @@
   padding-left: 10rem;
   margin-bottom: 2rem;
 }
+.how-we-work .steps .step3::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  left: 55%;
+  top: 30%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 53%;
+  background-color: #19233f;
+}
 .how-we-work .steps .step4 {
   flex-direction: row-reverse;
 }
@@ -186,7 +224,19 @@
   display: flex;
   align-self: flex-start;
 }
+.how-we-work .steps .step4::before {
+  z-index: -1;
+  border-radius: 1.75rem;
+  right: 55%;
+  top: 10%;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 65%;
+  background-color: #2ea944;
+}
 .how-we-work .steps .step5 {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 2rem;
