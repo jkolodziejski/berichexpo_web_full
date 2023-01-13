@@ -201,6 +201,58 @@
           top: 10rem;
         }
       }
+      .black-dot-1 {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        content: "";
+        background-color: black;
+        border-radius: 100%;
+        left: 13.3%;
+        bottom: 48.2%;
+      }
+      .black-dot-2 {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        content: "";
+        background-color: black;
+        border-radius: 100%;
+        left: 38%;
+        bottom: 57%;
+      }
+      .black-dot-3 {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        content: "";
+        background-color: black;
+        border-radius: 100%;
+        left: 48%;
+        bottom: 62%;
+      }
+      .black-dot-4 {
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        content: "";
+        background-color: black;
+        border-radius: 100%;
+        left: 47%;
+        bottom: 71%;
+      }
+      .black-dot-5 {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        content: "";
+        background-color: black;
+        border-radius: 100%;
+        left: 49.3%;
+        bottom: 79.2%;
+        z-index: 2;
+      }
+
       .arrow {
         width: 40%;
         align-self: flex-start;
@@ -338,6 +390,21 @@
           .on-top-img {
             display: none;
           }
+          .black-dot-1 {
+            display: none;
+          }
+          .black-dot-2 {
+            display: none;
+          }
+          .black-dot-3 {
+            display: none;
+          }
+          .black-dot-4 {
+            display: none;
+          }
+          .black-dot-5 {
+            display: none;
+          }
         }
       }
     }
@@ -425,7 +492,6 @@
           height: 60%;
           right: -2rem;
         }
-
       }
       .step5 {
         .text {

@@ -193,6 +193,57 @@
   position: absolute;
   top: 10rem;
 }
+.how-we-work .steps .step3 .black-dot-1 {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  content: "";
+  background-color: black;
+  border-radius: 100%;
+  left: 13.3%;
+  bottom: 48.2%;
+}
+.how-we-work .steps .step3 .black-dot-2 {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  content: "";
+  background-color: black;
+  border-radius: 100%;
+  left: 38%;
+  bottom: 57%;
+}
+.how-we-work .steps .step3 .black-dot-3 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background-color: black;
+  border-radius: 100%;
+  left: 48%;
+  bottom: 62%;
+}
+.how-we-work .steps .step3 .black-dot-4 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  content: "";
+  background-color: black;
+  border-radius: 100%;
+  left: 47%;
+  bottom: 71%;
+}
+.how-we-work .steps .step3 .black-dot-5 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  content: "";
+  background-color: black;
+  border-radius: 100%;
+  left: 49.3%;
+  bottom: 79.2%;
+  z-index: 2;
+}
 .how-we-work .steps .step3 .arrow {
   width: 40%;
   align-self: flex-start;
@@ -311,6 +362,21 @@
     width: 60%;
   }
   .how-we-work .steps .step3 .images .on-top-img {
+    display: none;
+  }
+  .how-we-work .steps .step3 .images .black-dot-1 {
+    display: none;
+  }
+  .how-we-work .steps .step3 .images .black-dot-2 {
+    display: none;
+  }
+  .how-we-work .steps .step3 .images .black-dot-3 {
+    display: none;
+  }
+  .how-we-work .steps .step3 .images .black-dot-4 {
+    display: none;
+  }
+  .how-we-work .steps .step3 .images .black-dot-5 {
     display: none;
   }
 }

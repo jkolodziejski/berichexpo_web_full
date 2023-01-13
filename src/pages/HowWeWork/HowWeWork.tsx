@@ -78,7 +78,16 @@ const HowWeWork = () => {
             </div>
           </div>
           <div className="images">
-            <img src={IMG_How_we_work_3} alt="howWeWork3" />
+            <img
+              src={IMG_How_we_work_3}
+              style={{ position: "relative" }}
+              alt="howWeWork3"
+            />
+            <div className="black-dot-1" />
+            <div className="black-dot-2" />
+            <div className="black-dot-3" />
+            <div className="black-dot-4" />
+            <div className="black-dot-5" />
             <img src={IMG_How_we_work_4} alt="howWeWork4" />
             <img
               className="on-top-img"
