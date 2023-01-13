@@ -316,8 +316,7 @@ const Home = () => {
         <div className="row-reverse">
           <div className="text">
             <h3>
-              ANUGA FOODTEC, Cologne
-              <b>2021</b>
+              ANUGA FOODTEC, Cologne <b>2021</b>
             </h3>
             <h4>
               International trade fair for food technology. Another smart stand
