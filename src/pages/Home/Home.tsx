@@ -42,12 +42,19 @@ const reviews = [
   {
     id: 1,
     img: spiro,
+    text: "The guys have been great, the stand looks amazing, and the client is very happy indeed! Please extend my sincere thanks to the whole of the Berich team for executing such a quality build within a challenging timescale - it is very much appreciated. ",
+    author: "David Sparkes",
+    position: "Account Director",
+  },
+  {
+    id: 2,
+    img: spiro,
     text: "Thank you so much for stepping in at the last moment to offer your support and expertise.  No other production company was prepared to undertake such a challenging build and installation with such short turnaround times, however Berich raised itself to the task and pulled it off with competence and professionalism, while still managing to produce very high standards of fit and finish with excellent attention to detail. ",
     author: "Trevor Smith",
     position: "Senior Account Manager",
   },
   {
-    id: 2,
+    id: 3,
     img: ppduo,
     text: "Berich Sp. z o.o. built our exhibition stand on time and with attention to details. Their work resulted in a modern and visually-attractive construction that reflected our company's character and presented our business offerings in a creative yet minimalistic way. I highly recommend Berich Sp. z o.o. company due to their customer-centric way of thinking, reliability and high quality design. ",
     author: "Anna Baran",
