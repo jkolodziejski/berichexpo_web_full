@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+.footer * {
+  font-weight: 400 !important;
+}
 .footer .content {
   display: flex;
   flex-direction: row;
@@ -52,6 +55,9 @@
 .footer .content .right .nav button {
   text-decoration: none;
 }
+.footer .content .right .nav button h4 {
+  font-weight: 400;
+}
 .footer .content .right .nav button * {
   padding: 0.25rem 0;
   color: white;
@@ -64,6 +70,7 @@
 .footer .content .right .nav .active * {
   color: #2ea944;
   border-bottom: 2px solid #2ea944;
+  font-weight: bold !important;
 }
 .footer .content .right .contact-icons {
   display: flex;
@@ -117,6 +124,9 @@
   display: none;
   justify-content: center;
   align-items: center;
+}
+.footer-mobile * {
+  font-weight: 400 !important;
 }
 .footer-mobile .content {
   display: flex;

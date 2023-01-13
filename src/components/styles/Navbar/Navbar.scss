@@ -17,6 +17,9 @@
     }
     button {
       text-decoration: none;
+      h4 {
+        font-weight: 400;
+      }
     }
     button * {
       padding: 0.25rem 0;
@@ -30,6 +33,7 @@
     .active * {
       color: $br_green;
       border-bottom: 2px solid $br_green;
+      font-weight: bold;
     }
   }
 }
@@ -86,6 +90,9 @@
       button {
         text-decoration: none;
         width: max-content;
+        h4 {
+          font-weight: 400;
+        }
       }
       button * {
         padding: 0.25rem 0;
@@ -99,9 +106,13 @@
       .active * {
         color: $br_green;
         border-bottom: 2px solid $br_green;
+        font-weight: bold;
       }
     }
     .contact {
+      * {
+        font-weight: 400;
+      }
       padding: 0;
       display: flex;
       flex-direction: column;

@@ -1,6 +1,9 @@
 @import "../../../assets/styles/vars";
 
 .footer {
+  * {
+    font-weight: 400 !important;
+  }
   width: 100%;
   background: $br_dark_blue;
   display: flex;
@@ -49,6 +52,9 @@
         }
         button {
           text-decoration: none;
+          h4 {
+            font-weight: 400;
+          }
         }
         button * {
           padding: 0.25rem 0;
@@ -62,6 +68,7 @@
         .active * {
           color: $br_green;
           border-bottom: 2px solid $br_green;
+          font-weight: bold !important;
         }
       }
       .contact-icons {
@@ -112,6 +119,9 @@
 }
 
 .footer-mobile {
+  * {
+    font-weight: 400 !important;
+  }
   width: 100%;
   background: $br_dark_blue;
   display: none;

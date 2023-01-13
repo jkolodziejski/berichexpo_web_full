@@ -16,6 +16,9 @@
 .navbar .navbar-item button {
   text-decoration: none;
 }
+.navbar .navbar-item button h4 {
+  font-weight: 400;
+}
 .navbar .navbar-item button * {
   padding: 0.25rem 0;
   color: #19233f;
@@ -28,6 +31,7 @@
 .navbar .navbar-item .active * {
   color: #2ea944;
   border-bottom: 2px solid #2ea944;
+  font-weight: bold;
 }
 
 .navbar-mobile {
@@ -86,6 +90,9 @@
   width: -moz-max-content;
   width: max-content;
 }
+.navbar-mobile .mobile-menu .items button h4 {
+  font-weight: 400;
+}
 .navbar-mobile .mobile-menu .items button * {
   padding: 0.25rem 0;
   color: white;
@@ -98,6 +105,7 @@
 .navbar-mobile .mobile-menu .items .active * {
   color: #2ea944;
   border-bottom: 2px solid #2ea944;
+  font-weight: bold;
 }
 .navbar-mobile .mobile-menu .contact {
   padding: 0;
@@ -105,6 +113,9 @@
   flex-direction: column;
   gap: 10vw;
   width: 100%;
+}
+.navbar-mobile .mobile-menu .contact * {
+  font-weight: 400;
 }
 .navbar-mobile .mobile-menu .contact .contact-row {
   width: 100%;
