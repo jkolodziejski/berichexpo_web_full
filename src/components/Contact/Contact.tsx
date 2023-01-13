@@ -14,25 +14,32 @@ import instagram from "../../assets/icons/instagram_icon.png";
 
 import emailjs from "emailjs-com";
 import Iframe from "react-iframe";
+import { useState } from "react";
 
 const Contact = () => {
+  const [params, setParams] = useState({
+    email: "",
+    message: "",
+  });
+
   const sendEmail = (e: any) => {
+    e.preventDefault();
     emailjs
-      .sendForm(
-        "berichexpo",
-        "berichexpo_templates",
-        e.target,
-        "sxVb6_FDq8g4DxTO1"
-      )
+      .send("berichexpo", "berichexpo_templates", params, "sxVb6_FDq8g4DxTO1")
       .then(
         (result) => {
-          console.log(result.text);
+          setParams({
+            email: "",
+            message: "",
+          });
         },
         (error) => {
-          console.log(error.text);
+          setParams({
+            email: "",
+            message: "",
+          });
         }
       );
-    e.target.reset();
   };
 
   return (
@@ -51,6 +58,10 @@ const Contact = () => {
             <TextField
               fullWidth
               label={"Email Address"}
+              value={params.email}
+              onChange={(e) => {
+                setParams({ ...params, email: e.target.value });
+              }}
               required
               type={"email"}
             />
@@ -58,6 +69,10 @@ const Contact = () => {
             <TextField
               fullWidth
               multiline
+              value={params.message}
+              onChange={(e) => {
+                setParams({ ...params, message: e.target.value });
+              }}
               minRows={5}
               maxRows={5}
               label={"Message"}
@@ -65,7 +80,7 @@ const Contact = () => {
               type="text"
             />
           </div>
-          <PrimaryButton type="submit">
+          <PrimaryButton type="submit" onClick={sendEmail}>
             <BoldP>Send Message</BoldP>
           </PrimaryButton>
         </form>{" "}
