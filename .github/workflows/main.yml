@@ -25,7 +25,7 @@
        uses: SamKirkland/FTP-Deploy-Action@4.1.0
        with:
          server: berich.atthost24.pl
-         username: berich_test
+         username: berich_Github
          password: ${{ secrets.ftp_password }}
          local-dir: build/
          
