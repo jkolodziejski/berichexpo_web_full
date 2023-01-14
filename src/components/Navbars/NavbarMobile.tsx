@@ -18,7 +18,12 @@ const NavbarMobile = () => {
   return (
     <div className="navbar-mobile">
       <div className="logo-icon">
-        <img src={Logo} alt="logo" style={{ width: "20%" }} />
+        <img
+          src={Logo}
+          alt="logo"
+          style={{ width: "20%", cursor: "pointer" }}
+          onClick={() => (window.location.href = "/")}
+        />
         <svg
           width="38"
           height="30"

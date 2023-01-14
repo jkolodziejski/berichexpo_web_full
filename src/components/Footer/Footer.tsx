@@ -12,7 +12,13 @@ const Footer = () => {
     <div className="footer">
       <div className="content">
         <div className="logo-text">
-          <img src={Logo} className="logo" alt="Logo" />
+          <img
+            src={Logo}
+            className="logo"
+            style={{ cursor: "pointer" }}
+            onClick={() => (window.location.href = "/")}
+            alt="Logo"
+          />
           <div className="text">
             <H4 className="green">Berich Sp. z o. o.</H4>
             <H4 className="white">ul. Os. Przemysława 25/11-12</H4>

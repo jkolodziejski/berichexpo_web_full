@@ -9,7 +9,13 @@ const FooterMobile = () => {
     <div className="footer-mobile">
       <div className="content">
         <div className="logo">
-          <img src={Logo} className="logo" alt="Logo" />
+          <img
+            src={Logo}
+            className="logo"
+            alt="Logo"
+            style={{ cursor: "pointer" }}
+            onClick={() => (window.location.href = "/")}
+          />
         </div>
         <div className="contact-icons">
           <div className="icon-text">

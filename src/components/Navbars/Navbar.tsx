@@ -17,7 +17,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <RowSpaceBetween>
-        <img src={Logo} alt="logo" style={{ width: "20%" }} />
+        <img
+          src={Logo}
+          alt="logo"
+          style={{ width: "20%", cursor: "pointer" }}
+          onClick={() => (window.location.href = "/")}
+        />
         <NavBarWrapper>
           <li className="navbar-item">
             <button
