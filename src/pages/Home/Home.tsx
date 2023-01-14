@@ -23,6 +23,7 @@ import IMG_ANUGA from "../../assets/images/IMG_ANUGA.jpeg";
 import IMG_FACHPACK from "../../assets/images/IMG_FACHPACK.jpeg";
 import IMG_SIRHA_tiny from "../../assets/images/IMG_SIRHA_tiny.jpeg";
 import IMG_ESMO from "../../assets/images/IMG_ESMO.jpeg";
+import IMG_FIE from "../../assets/images/IMG_FIE.jpeg";
 import ppduo from "../../assets/images/review/ppduo.png";
 import spiro from "../../assets/images/review/spiro.jpeg";
 import pomet from "../../assets/images/review/pomet.jpeg";
@@ -236,7 +237,7 @@ const Home = () => {
         <div className="row">
           <div className="text">
             <h3>
-              ESMO Congress, Paris <b>2022</b>
+            ESMO Congress, Paris  <b>2022</b>
             </h3>
             <h4>
               A large and functional space for SANOFI during the European
@@ -262,8 +263,36 @@ const Home = () => {
             />
           </div>
         </div>
-
         <div className="row-reverse">
+          <div className="text">
+            <h3>
+               FI Europe , Paris <b>2022</b>
+            </h3>
+            <h4>
+            A simple practical space for IMCD, the leading global distributor of specialty chemicals and food ingredients. (Food Ingredients Europe Fair)
+            </h4>
+            <PrimaryButton
+              onClick={() => {
+                navigate("/ourwork/fieParis");
+                window.scroll(0, 0);
+              }}
+            >
+              <BoldP>Learn more</BoldP>
+            </PrimaryButton>
+          </div>
+          <div className="img-wrapper left">
+            <img
+              src={IMG_FIE}
+              alt="shira"
+              onClick={() => {
+                navigate("/ourwork/fieParis");
+                window.scroll(0, 0);
+              }}
+            />
+          </div>
+        </div>
+
+        <div className="row">
           <div className="text">
             <h3>
               SIRHA, Lyon <b>2021</b>
@@ -281,7 +310,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper left">
+          <div className="img-wrapper right">
             <img
               src={IMG_SIRHA_tiny}
               alt="shira"
@@ -292,7 +321,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="row">
+        <div className="row-reverse">
           <div className="text">
             <h3>
               FACHPACK, Nuremberg <b>2021</b>
@@ -310,7 +339,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper right">
+          <div className="img-wrapper left">
             <img
               src={IMG_FACHPACK}
               alt="shira"
@@ -321,7 +350,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="row-reverse">
+        <div className="row">
           <div className="text">
             <h3>
               ANUGA FOODTEC, Cologne <b>2022</b>
@@ -339,7 +368,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper left">
+          <div className="img-wrapper right">
             <img
               src={IMG_ANUGA}
               alt="shira"
