@@ -25,6 +25,7 @@ import IMG_SIRHA_tiny from "../../assets/images/IMG_SIRHA_tiny.jpeg";
 import IMG_ESMO from "../../assets/images/IMG_ESMO.jpeg";
 import ppduo from "../../assets/images/review/ppduo.png";
 import spiro from "../../assets/images/review/spiro.jpeg";
+import pomet from "../../assets/images/review/pomet.jpeg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -42,16 +43,16 @@ const reviews = [
   {
     id: 1,
     img: spiro,
-    text: "The guys have been great, the stand looks amazing, and the client is very happy indeed! Please extend my sincere thanks to the whole of the Berich team for executing such a quality build within a challenging timescale - it is very much appreciated. ",
-    author: "David Sparkes",
-    position: "Account Director",
-  },
-  {
-    id: 2,
-    img: spiro,
     text: "Thank you so much for stepping in at the last moment to offer your support and expertise.  No other production company was prepared to undertake such a challenging build and installation with such short turnaround times, however Berich raised itself to the task and pulled it off with competence and professionalism, while still managing to produce very high standards of fit and finish with excellent attention to detail. ",
     author: "Trevor Smith",
     position: "Senior Account Manager",
+  },
+  {
+    id: 2,
+    img: pomet,
+    text: "Thanks to Berich, our participation in the fair turned out to be a great success. Moreover we will remember the cooperation with Berich project managers as a very positive experience. They are characterized by extraordinary kindness and patience, and above all, they are client-oriented. If anyone is looking for a stand building company which can perform the highest quality and offer an excellent project management - Berich will be the best choice. ",
+    author: "Jakub Kaczorowski ",
+    position: "CEO",
   },
   {
     id: 3,
@@ -323,7 +324,7 @@ const Home = () => {
         <div className="row-reverse">
           <div className="text">
             <h3>
-              ANUGA FOODTEC, Cologne <b>2021</b>
+              ANUGA FOODTEC, Cologne <b>2022</b>
             </h3>
             <h4>
               International trade fair for food technology. Another smart stand
