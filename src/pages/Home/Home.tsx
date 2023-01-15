@@ -23,7 +23,7 @@ import IMG_ANUGA from "../../assets/images/IMG_ANUGA.jpeg";
 import IMG_FACHPACK from "../../assets/images/IMG_FACHPACK.jpeg";
 import IMG_SIRHA_tiny from "../../assets/images/IMG_SIRHA_tiny.jpeg";
 import IMG_ESMO from "../../assets/images/IMG_ESMO.jpeg";
-import IMG_FIE from "../../assets/images/IMG_FIE.jpeg";
+/*import IMG_FIE from "../../assets/images/IMG_FIE.jpeg";*/
 import ppduo from "../../assets/images/review/ppduo.png";
 import spiro from "../../assets/images/review/spiro.jpeg";
 import pomet from "../../assets/images/review/pomet.jpeg";
@@ -263,6 +263,7 @@ const Home = () => {
             />
           </div>
         </div>
+        {/*
         <div className="row-reverse">
           <div className="text">
             <h3>
@@ -291,8 +292,9 @@ const Home = () => {
             />
           </div>
         </div>
+            */}
 
-        <div className="row">
+        <div className="row-reverse">
           <div className="text">
             <h3>
               SIRHA, Lyon <b>2021</b>
@@ -310,7 +312,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper right">
+          <div className="img-wrapper left">
             <img
               src={IMG_SIRHA_tiny}
               alt="shira"
@@ -321,7 +323,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="row-reverse">
+        <div className="row">
           <div className="text">
             <h3>
               FACHPACK, Nuremberg <b>2021</b>
@@ -339,7 +341,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper left">
+          <div className="img-wrapper right">
             <img
               src={IMG_FACHPACK}
               alt="shira"
@@ -350,7 +352,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="row">
+        <div className="row-reverse">
           <div className="text">
             <h3>
               ANUGA FOODTEC, Cologne <b>2022</b>
@@ -368,7 +370,7 @@ const Home = () => {
               <BoldP>Learn more</BoldP>
             </PrimaryButton>
           </div>
-          <div className="img-wrapper right">
+          <div className="img-wrapper left">
             <img
               src={IMG_ANUGA}
               alt="shira"

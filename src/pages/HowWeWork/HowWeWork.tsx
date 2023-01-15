@@ -68,7 +68,7 @@ const HowWeWork = () => {
           <div className="text">
             <h1 className="number">03</h1>
             <div className="title">
-              <h2>Briefing</h2>
+              <h2>Design</h2>
               <div className="divider" />
               <h4>
                 Equipped with knowledge and ideas we start to design. No matter

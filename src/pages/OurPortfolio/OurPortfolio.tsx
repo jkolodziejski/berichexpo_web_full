@@ -8,7 +8,7 @@ import IMG_ANUGA from "../../assets/images/IMG_ANUGA.jpeg";
 import IMG_FACHPACK from "../../assets/images/IMG_FACHPACK.jpeg";
 import IMG_SIRHA_tiny from "../../assets/images/IMG_SIRHA_tiny.jpeg";
 import IMG_ESMO from "../../assets/images/IMG_ESMO.jpeg";
-import IMG_FIE from "../../assets/images/IMG_FIE.jpeg";
+/*import IMG_FIE from "../../assets/images/IMG_FIE.jpeg";*/
 import { useNavigate } from "react-router-dom";
 
 const OurPortfolio = () => {
@@ -54,6 +54,7 @@ const OurPortfolio = () => {
             <img src={IMG_ESMO} alt="ESMO" />
           </div>
         </div>
+        {/*
         <div className="row">
           <div className="text">
             <h3>
@@ -82,8 +83,8 @@ const OurPortfolio = () => {
             />
           </div>
         </div>
-
-        <div className="row-reverse">
+            */}
+        <div className="row">
           <div className="text">
             <h3>
               SIRHA, Lyon <b>2021</b>
@@ -102,7 +103,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper left"
+            className="img-wrapper right"
             onClick={() => {
               navigate("/ourwork/sirhaLyon");
               window.scroll(0, 0);
@@ -111,7 +112,7 @@ const OurPortfolio = () => {
             <img src={IMG_SIRHA_tiny} alt="shira" />
           </div>
         </div>
-        <div className="row">
+        <div className="row-reverse">
           <div className="text">
             <h3>
               FACHPACK, Nuremberg <b>2021</b>
@@ -130,7 +131,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper right"
+            className="img-wrapper left"
             onClick={() => {
               navigate("/ourwork/fachpackNuremberg");
               window.scroll(0, 0);
@@ -139,10 +140,10 @@ const OurPortfolio = () => {
             <img src={IMG_FACHPACK} alt="FACHPACK" />
           </div>
         </div>
-        <div className="row-reverse">
+        <div className="row">
           <div className="text">
             <h3>
-              ANUGA FOODTEC, Cologne <b>2021</b>
+              ANUGA FOODTEC, Cologne <b>2022</b>
             </h3>
             <h4>
               International trade fair for food technology. Another smart stand
@@ -158,7 +159,7 @@ const OurPortfolio = () => {
             </PrimaryButton>
           </div>
           <div
-            className="img-wrapper left"
+            className="img-wrapper right"
             onClick={() => {
               navigate("/ourwork/AnugaFoodtec");
               window.scroll(0, 0);
