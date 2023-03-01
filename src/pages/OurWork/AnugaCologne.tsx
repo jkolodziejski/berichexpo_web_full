@@ -1,3 +1,4 @@
+
 import Cover from "../../assets/images/projects/anuga_cologne/IMG_Project_1.jpeg";
 import Img1 from "../../assets/images/projects/anuga_cologne/IMG_Project_2.jpeg";
 import Img2 from "../../assets/images/projects/anuga_cologne/IMG_Project_4.jpeg";
@@ -30,9 +31,9 @@ const AnugaCologne = () => {
         <img className="picture" src={Img1} alt="img1" />
       </div>
       <div className="section2">
-        <video src={Vid1} controls muted />
+        <video src={Vid1} style={{height : 571 }} controls muted  />
         <img className="picture" src={Img2} alt="img2" />
-        <video src={Vid2} controls muted />
+        <video src={Vid2}  style={{height :571 }} controls muted />
       </div>
       <div className="section3">
         <img className="picture" src={Img3} alt="img3" />

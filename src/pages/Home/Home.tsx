@@ -293,19 +293,18 @@ const Home = () => {
           </div>
         </div>
             */}
-
         <div className="row-reverse">
           <div className="text">
             <h3>
-              SIRHA, Lyon <b>2021</b>
+              ANUGA FOODTEC, Cologne <b>2022</b>
             </h3>
             <h4>
-              A prestigious culinary fair and a stand for one of the largest
-              caviar producers in the world.
+              International trade fair for food technology. Another smart stand
+              as part of constant cooperation with our client.
             </h4>
             <PrimaryButton
               onClick={() => {
-                navigate("/ourwork/sirhaLyon");
+                navigate("/ourwork/AnugaFoodtec");
                 window.scroll(0, 0);
               }}
             >
@@ -314,15 +313,16 @@ const Home = () => {
           </div>
           <div className="img-wrapper left">
             <img
-              src={IMG_SIRHA_tiny}
+              src={IMG_ANUGA}
               alt="shira"
               onClick={() => {
-                navigate("/ourwork/sirhaLyon");
+                navigate("/ourwork/AnugaFoodtec");
                 window.scroll(0, 0);
               }}
             />
           </div>
         </div>
+        
         <div className="row">
           <div className="text">
             <h3>
@@ -355,15 +355,15 @@ const Home = () => {
         <div className="row-reverse">
           <div className="text">
             <h3>
-              ANUGA FOODTEC, Cologne <b>2022</b>
+              SIRHA, Lyon <b>2021</b>
             </h3>
             <h4>
-              International trade fair for food technology. Another smart stand
-              as part of constant cooperation with our client.
+              A prestigious culinary fair and a stand for one of the largest
+              caviar producers in the world.
             </h4>
             <PrimaryButton
               onClick={() => {
-                navigate("/ourwork/AnugaFoodtec");
+                navigate("/ourwork/sirhaLyon");
                 window.scroll(0, 0);
               }}
             >
@@ -372,15 +372,16 @@ const Home = () => {
           </div>
           <div className="img-wrapper left">
             <img
-              src={IMG_ANUGA}
+              src={IMG_SIRHA_tiny}
               alt="shira"
               onClick={() => {
-                navigate("/ourwork/AnugaFoodtec");
+                navigate("/ourwork/sirhaLyon");
                 window.scroll(0, 0);
               }}
             />
           </div>
         </div>
+        
       </div>
       <div className="our-offers">
         <div className="title">
